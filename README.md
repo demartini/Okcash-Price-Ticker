@@ -28,15 +28,15 @@ Depending on the rate/price it might not fit very well. Just hover on the icon b
 
 ## Installation
 
-Get it from [Chrome Web Store](http://bit.ly/OkcashExtension).
+* Get it from [Chrome Web Store](http://bit.ly/OkcashExtension).
 
 ## Buy me a beer!
 
 If you like this, you can donate here:
 
-OK: `PENWNF2NVahJPxWNqqEr6vpqNTa6NSJdRU`
-BTC: `1GeyTV39dvSzHJbZXha1r3UbMYKrG3Dcva`
-DOGE: `DJDfngbVFmvekrAqaLBga4VgtsiJtpMn98`
+* OK: `PENWNF2NVahJPxWNqqEr6vpqNTa6NSJdRU`
+* BTC: `1GeyTV39dvSzHJbZXha1r3UbMYKrG3Dcva`
+* DOGE: `DJDfngbVFmvekrAqaLBga4VgtsiJtpMn98`
 
 ## Notes
 
@@ -45,6 +45,6 @@ DOGE: `DJDfngbVFmvekrAqaLBga4VgtsiJtpMn98`
 
 ## Disclaimer
 
-> This is not an official plugin!
-> The author of this plugin has no affiliation with any exchange, nor is this plugin endorsed or supported in any shape by none of them.
-> More info about the exchanges you can find on their respective websites.
+* This is not an official plugin!
+* The author of this plugin has no affiliation with any exchange, nor is this plugin endorsed or supported in any shape by none of them.
+* More info about the exchanges you can find on their respective websites.
