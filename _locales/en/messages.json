@@ -1,0 +1,23 @@
+{
+	"desc": {
+		"message": "This extension displays the current rate/price of Okcash on the badge icon."
+	},
+	"name": {
+		"message": "Okcash Price Ticker"
+	},
+	"shortname": {
+		"message": "Ok Price Ticker"
+	},
+	"satoshibittrex": {
+		"message": " Satoshi (Bittrex)"
+	},
+	"satoshibleutrade": {
+		"message": " Satoshi (Bleutrade)"
+	},
+	"satoshicryptopia": {
+		"message": " Satoshi (Cryptopia)"
+	},
+	"satoshiyobit": {
+		"message": " Satoshi (YoBit)"
+	}
+}

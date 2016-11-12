@@ -1,0 +1,23 @@
+{
+	"desc": {
+		"message": "Esta extensão exibe a atual taxa/preço do Okcash no ícone do Chrome."
+	},
+	"name": {
+		"message": "Okcash Price Ticker"
+	},
+	"shortname": {
+		"message": "Ok Price Ticker"
+	},
+	"satoshibittrex": {
+		"message": " Satoshi (Bittrex)"
+	},
+	"satoshibleutrade": {
+		"message": " Satoshi (Bleutrade)"
+	},
+	"satoshicryptopia": {
+		"message": " Satoshi (Cryptopia)"
+	},
+	"satoshiyobit": {
+		"message": " Satoshi (YoBit)"
+	}
+}

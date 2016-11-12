@@ -1,0 +1,320 @@
+/*
+	Theme Name: Okcash Extension
+	Author: Iolar Demartini Jr
+	Author URI: http://www.iolardemartini.com/
+	Description: Theme for Okcash Extension
+	Version: 1.0
+*/
+
+/******************************************************************************
+	Import Basic Files
+*******************************************************************************/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,500,700");
+@import url("font-awesome.min.css");
+
+/******************************************************************************
+	Scrollbar
+*******************************************************************************/
+::-webkit-scrollbar {
+	z-index: 30;
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	border: 0;
+	border-radius: 0;
+	background-color: #eaeaea;
+	box-shadow: none;
+}
+::-webkit-scrollbar-thumb {
+	border: 0;
+	border-radius: 0;
+	background-color: #c1c1c1;
+	box-shadow: none;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #aaa;
+}
+
+/******************************************************************************
+	Selection Color
+*******************************************************************************/
+::selection {
+	color: #fff;
+	background-color: #0165a4;
+	text-shadow: none;
+}
+::-webkit-selection {
+	color: #fff;
+	background-color: #0165a4;
+	text-shadow: none;
+}
+::-moz-selection {
+	color: #fff;
+	background-color: #0165a4;
+	text-shadow: none;
+}
+
+/******************************************************************************
+	Reset
+*******************************************************************************/
+* {
+	border-radius: 0!important;
+	outline:  0!important;
+}
+
+/******************************************************************************
+	Typography
+*******************************************************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Raleway", sans-serif;
+}
+
+/******************************************************************************
+	Links
+*******************************************************************************/
+a {
+	text-decoration: none;
+	color: #0165a4;
+}
+a:active,
+a:hover {
+	outline: 0;
+}
+
+/******************************************************************************
+	Helper
+*******************************************************************************/
+/* Margin Top */
+.mt-0 { margin-top: 0!important; }
+.mt-5 { margin-top: 5px!important; }
+.mt-10 { margin-top: 10px!important; }
+.mt-15 { margin-top: 15px!important; }
+.mt-20 { margin-top: 20px!important; }
+.mt-25 { margin-top: 25px!important; }
+.mt-30 { margin-top: 30px!important; }
+.mt-35 { margin-top: 35px!important; }
+.mt-40 { margin-top: 40px!important; }
+.mt-45 { margin-top: 45px!important; }
+.mt-50 { margin-top: 50px!important; }
+.mt-55 { margin-top: 55px!important; }
+.mt-60 { margin-top: 60px!important; }
+.mt-65 { margin-top: 65px!important; }
+.mt-70 { margin-top: 70px!important; }
+.mt-75 { margin-top: 75px!important; }
+.mt-80 { margin-top: 80px!important; }
+.mt-85 { margin-top: 85px!important; }
+.mt-90 { margin-top: 90px!important; }
+.mt-95 { margin-top: 95px!important; }
+.mt-100 { margin-top: 100px!important; }
+/* Margin Bottom */
+.mb-0 { margin-bottom: 0!important; }
+.mb-5 { margin-bottom: 5px!important; }
+.mb-10 { margin-bottom: 10px!important; }
+.mb-15 { margin-bottom: 15px!important; }
+.mb-20 { margin-bottom: 20px!important; }
+.mb-25 { margin-bottom: 25px!important; }
+.mb-30 { margin-bottom: 30px!important; }
+.mb-35 { margin-bottom: 35px!important; }
+.mb-40 { margin-bottom: 40px!important; }
+.mb-45 { margin-bottom: 45px!important; }
+.mb-50 { margin-bottom: 50px!important; }
+.mb-55 { margin-bottom: 55px!important; }
+.mb-60 { margin-bottom: 60px!important; }
+.mb-65 { margin-bottom: 65px!important; }
+.mb-70 { margin-bottom: 70px!important; }
+.mb-75 { margin-bottom: 75px!important; }
+.mb-80 { margin-bottom: 80px!important; }
+.mb-85 { margin-bottom: 85px!important; }
+.mb-90 { margin-bottom: 90px!important; }
+.mb-95 { margin-bottom: 95px!important; }
+.mb-100 { margin-bottom: 100px!important; }
+/* Padding Top */
+.pt-0 { padding-top: 0!important; }
+.pt-5 { padding-top: 5px!important; }
+.pt-10 { padding-top: 10px!important; }
+.pt-15 { padding-top: 15px!important; }
+.pt-20 { padding-top: 20px!important; }
+.pt-25 { padding-top: 25px!important; }
+.pt-30 { padding-top: 30px!important; }
+.pt-35 { padding-top: 35px!important; }
+.pt-40 { padding-top: 40px!important; }
+.pt-45 { padding-top: 45px!important; }
+.pt-50 { padding-top: 50px!important; }
+.pt-55 { padding-top: 55px!important; }
+.pt-60 { padding-top: 60px!important; }
+.pt-65 { padding-top: 65px!important; }
+.pt-70 { padding-top: 70px!important; }
+.pt-75 { padding-top: 75px!important; }
+.pt-80 { padding-top: 80px!important; }
+.pt-85 { padding-top: 85px!important; }
+.pt-90 { padding-top: 90px!important; }
+.pt-95 { padding-top: 95px!important; }
+.pt-100 { padding-top: 100px!important; }
+/* Padding Bottom */
+.pb-0 { padding-bottom: 0!important; }
+.pb-5 { padding-bottom: 5px!important; }
+.pb-10 { padding-bottom: 10px!important; }
+.pb-15 { padding-bottom: 15px!important; }
+.pb-20 { padding-bottom: 20px!important; }
+.pb-25 { padding-bottom: 25px!important; }
+.pb-30 { padding-bottom: 30px!important; }
+.pb-35 { padding-bottom: 35px!important; }
+.pb-40 { padding-bottom: 40px!important; }
+.pb-45 { padding-bottom: 45px!important; }
+.pb-50 { padding-bottom: 50px!important; }
+.pb-55 { padding-bottom: 55px!important; }
+.pb-60 { padding-bottom: 60px!important; }
+.pb-65 { padding-bottom: 65px!important; }
+.pb-70 { padding-bottom: 70px!important; }
+.pb-75 { padding-bottom: 75px!important; }
+.pb-80 { padding-bottom: 80px!important; }
+.pb-85 { padding-bottom: 85px!important; }
+.pb-90 { padding-bottom: 90px!important; }
+.pb-95 { padding-bottom: 95px!important; }
+.pb-100 { padding-bottom: 100px!important; }
+
+/******************************************************************************
+	Basic Styles
+*******************************************************************************/
+body {
+	font-family: "Open Sans", sans-serif;
+	overflow-x: hidden;
+}
+
+/******************************************************************************
+	Toggle Styles
+*******************************************************************************/
+.wrapper {
+	padding-left: 0;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+.wrapper.toggled {
+	padding-left: 250px;
+}
+.sidebar-wrapper {
+	position: fixed;
+	z-index: 1000;
+	left: 250px;
+	overflow-y: auto;
+	width: 0;
+	height: 100%;
+	margin-left: -250px;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+	background: #131218;
+}
+.wrapper.toggled .sidebar-wrapper {
+	width: 250px;
+}
+.page-content-wrapper {
+	position: absolute;
+	width: 100%;
+	padding: 15px;
+}
+.wrapper.toggled .page-content-wrapper {
+	position: absolute;
+	margin-right: -250px;
+}
+
+/******************************************************************************
+	Sidebar Styles
+*******************************************************************************/
+.sidebar-nav {
+	position: absolute;
+	top: 0;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sidebar-nav li {
+	line-height: 40px;
+}
+.sidebar-nav li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.sidebar-nav li a:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #0165a4;
+}
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+	text-decoration: none;
+}
+.sidebar-nav > .sidebar-brand {
+	margin: 15px 0;
+}
+
+/******************************************************************************
+	Mobile First Method
+*******************************************************************************/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.wrapper {
+		padding-left: 250px;
+	}
+	.wrapper.toggled {
+		padding-left: 0;
+	}
+	.sidebar-wrapper {
+		width: 250px;
+	}
+	.wrapper.toggled .sidebar-wrapper {
+		width: 0;
+	}
+	.page-content-wrapper {
+		position: relative;
+		padding: 20px;
+	}
+	.wrapper.toggled .page-content-wrapper {
+		position: relative;
+		margin-right: 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
+
+/******************************************************************************
+	Non-Mobile First Method
+*******************************************************************************/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}
